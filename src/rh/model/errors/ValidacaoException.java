@@ -1,4 +1,4 @@
-package rh;
+package rh.model.errors;
 
 public class ValidacaoException extends RuntimeException {
 

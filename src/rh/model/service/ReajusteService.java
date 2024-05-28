@@ -1,11 +1,15 @@
-package rh.model;
+package rh.model.service;
 
 import java.math.BigDecimal;
 
 import java.util.List;
 
+import rh.model.entities.Funcionario;
+import rh.model.validation.ValidacaoReajuste;
+
 public class ReajusteService {
     private List<ValidacaoReajuste> validacoes;
+    
 
     public ReajusteService(List<ValidacaoReajuste> validacoes) {
         this.validacoes = validacoes;

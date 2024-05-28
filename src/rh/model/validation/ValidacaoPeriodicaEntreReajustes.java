@@ -1,9 +1,11 @@
-package rh.model;
+package rh.model.validation;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import rh.ValidacaoException;
+
+import rh.model.entities.Funcionario;
+import rh.model.errors.ValidacaoException;
 
 public class ValidacaoPeriodicaEntreReajustes {
     public void validar(Funcionario funcionario, BigDecimal aumento){

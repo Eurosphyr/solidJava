@@ -1,8 +1,9 @@
-package rh.model;
+package rh.model.validation;
 
 import java.math.BigDecimal;
 
-import rh.ValidacaoException;
+import rh.model.entities.Funcionario;
+import rh.model.errors.ValidacaoException;
 
 public class ValidacaoPercentualReajuste implements ValidacaoReajuste{
     
